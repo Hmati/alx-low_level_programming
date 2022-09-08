@@ -1,15 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
-* main - print function in printf function 
-* Description : using the main function 
-* Return :0
-*/
+ *
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
+ *
+ */
 
 int main(void)
 {
 
-        printf("with proper grammar, but the outcome is a piece of art,\n");
+		puts("\"Programming is like building a multilingual puzzle");
+		return (0);
 
-        return(0);
 }
