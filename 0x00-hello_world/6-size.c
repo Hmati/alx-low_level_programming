@@ -1,8 +1,9 @@
-#include<stdio.h> 
-/** 
- *main-prints the message in the main function   
+#include<stdio.h>
+
+/**
+ *main - Entry point
  *
- *Return always (0):sucess
+ *Return: always 0
  */
 int main(void)
 {
@@ -17,5 +18,4 @@ printf("Size of a floa:%lu byte(s)\n", (unsigned long)sizeof(f));
 printf("Size of a long int:%lu byte(s)\n", (unsigned long)sizeof(li));
 printf("Size of an long long int:%lu byte(s)\n", (unsigned long)sizeof(lli));
 return (0);
-}	
-
+}
