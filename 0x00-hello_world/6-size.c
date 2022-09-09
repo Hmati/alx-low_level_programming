@@ -1,14 +1,23 @@
-#include <stdio.h>
-/**
-*main-entry point
-*Return 0:always(successful) 
-*/
+#include<stdio.h> 
+
+/** 
+ * main -prints the message in the main function   
+ *
+ * Return always (0):sucess
+ */
 int main(void)
 {
-printf("Size of int:%lu byte(s)\n", sizeof(int));
-printf("Size of char:%lu byte(s)\n", sizeof(char));
-printf("Size of float:%lu byte(s)\n", sizeof(float));
-printf("sizeof long int:%lu byte(s)\n", sizeof(long int));
-printf("size of long long int:%lu byte(s)\n", sizeof(long long int));
-return (0);
-}
+	int a;
+	char c;
+	float f;
+	long int li;
+	long long int lli;
+
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of an int: %lu byte(s)\n",(unsigned long)sizeof(a));
+	printf("Size of a floa: %lu byte(s)\n",(unsigned long)sizeof(f));
+	printf("Size of a long int : %lu byte(s)\n",(unsigned long)sizeof(li));
+	printf("Size of an long long int : %lu byte(s)\n",(unsigned long)sizeof(lli));
+	return(0);
+}	
+
