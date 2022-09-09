@@ -12,9 +12,9 @@ int main(void)
         long int li;
         long long lli;
 
-	printf("Size of a int : %d  byte(s)\n", (unsigned long)sizeof(i));
-	printf("Size of a char :%d byte(s)\n",(unsigned long)sizeof(a));
-        printf("Size of a float : %d byte(s)\n", (unsigned long)sizeof(f));	
-        printf("Size of a long int : %d byte(s)\n", (unsigned long)sizeof(li));
-        printf("Size of a Long long int : %d  byte(s)\n", (unsigned long)sizeof(lli));
+	printf("Size of a int : %d  byte(s)\n", (unsigned long)sizeof(int));
+	printf("Size of a char :%d byte(s)\n",(unsigned long)sizeof(char));
+        printf("Size of a float : %d byte(s)\n", (unsigned long)sizeof(float));	
+        printf("Size of a long int : %d byte(s)\n", (unsigned long)sizeof(long int));
+        printf("Size of a Long long int : %d  byte(s)\n", (unsigned long)sizeof(long long int));
 }       return(0);
