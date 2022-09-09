@@ -1,4 +1,6 @@
 #include<stdio.h>
+
+
 /**
  * main-print the sring in the main function 
  *
@@ -17,4 +19,4 @@ int main(void)
         printf("Size of a float : %ld byte(s)\n", (unsigned long)sizeof(f));	
         printf("Size of a long int : %ld byte(s)\n", (unsigned long)sizeof(li));
         printf("Size of a Long long int : %ld  byte(s)\n", (unsigned long)sizeof(lli));
-}
+}       return(0);
