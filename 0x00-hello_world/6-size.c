@@ -1,20 +1,15 @@
 #include<stdio.h>
 /**
- * main-print the sring in the main function 
+ *main - Entry point 
  *
- * Return 0:successfull execution 
+ *Return: always 0 
  */
 int main(void)
 {
-	int i;
-        char a;
-        float f;
-        long int li;
-        long long lli;
-
-	printf("Size of a int : %d  byte(s)\n", (unsigned long)sizeof(int));
-	printf("Size of a char :%d byte(s)\n",(unsigned long)sizeof(char));
-        printf("Size of a float : %d byte(s)\n", (unsigned long)sizeof(float));	
-        printf("Size of a long int : %d byte(s)\n", (unsigned long)sizeof(long int));
-        printf("Size of a Long long int : %d  byte(s)\n", (unsigned long)sizeof(long long int));
-}       return(0);
+printf("Size of int: %d byte(s)\n", sizeof(int));
+printf("Size of char: %d byte(s)\n", sizeof(char));
+printf("Size of float: %d byte(s)\n", sizeof(float));	
+printf("Size of long int: %d byte(s)\n", sizeof(long int));
+printf("Size of long long int: %d  byte(s)\n", sizeof(long long int));
+return (0);
+}	
