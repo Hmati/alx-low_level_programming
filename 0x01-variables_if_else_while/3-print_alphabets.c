@@ -3,7 +3,7 @@
 /**
  * main - Prints alphabets in lowercase and then in uppercase
  *
- * Result: Return always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,5 +13,6 @@ int main(void)
 		putchar(letter);
 	for (letter = 'A'; letter <= 'Z'; letter++)
 		putchar(letter);
+	printf('\n');
 	return (0);
 }
