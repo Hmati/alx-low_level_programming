@@ -13,7 +13,8 @@ int main(void)
 
 	for (letter = 'A'; letter <= 'Z'; letter++)
 		putchar(letter);
-	printf('\n');
+
+	putchar('\n');
 
 	return (0);
 }
