@@ -14,7 +14,7 @@ void print_most_numbers(void)
 
 
 
-	for (n i = 0 ; n < 9; n++)
+	for (n i = 0 ; n < 10; n++)
 
 	{
 
