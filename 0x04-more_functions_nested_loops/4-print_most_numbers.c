@@ -14,11 +14,11 @@ void print_most_numbers(void)
 
 
 
-	for (n i = 0 ; n < 10; n++)
+	for (n i = 28 ; n < 38; n++)
 
 	{
 
-		if ((n == 2) || (n == 4))
+		if ((n == 30) || (n == 32))
 
 		{
 
