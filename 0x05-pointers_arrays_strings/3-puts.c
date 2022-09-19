@@ -8,11 +8,11 @@
 
 void _puts(char *str)
 {
-	int s = 0;
+	int index = 0;
 
-	for (s = 0 ; str[s] != '\0'; s++)
+	for (index = 0 ; str[index] != '\0'; index++)
 	{
-		_putchar(str[s]);
+		_putchar(str[index]);
 	}
 	_putchar('\n');
 }
