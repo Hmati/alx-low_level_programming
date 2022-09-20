@@ -12,13 +12,13 @@ int _atoi(char *s)
 	unsigned int  x;
 	char *temp;
 
-	type = 0;
+	type = 1;
 	x = 0;
 	temp = s;
 
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
-		if  (*temp == "-")
+		if  (*temp == '-')
 			type *= -1;
 		temp++;
 	}
