@@ -9,7 +9,7 @@
 int _atoi(char *s)
 {
 	int type;
-	unsigned int  x;
+ 	unsigned int  x;
 	char *temp;
 
 	type = 1;
@@ -22,7 +22,7 @@ int _atoi(char *s)
 			type *= -1;
 		temp++;
 	}
-	if (*temp != '0')
+	if (*temp != '\0')
 	{
 		do {
 			x = x * 10 + (*temp - '0');
