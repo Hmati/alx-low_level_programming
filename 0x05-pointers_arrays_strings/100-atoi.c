@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	int type;
 	unsigned int  x;
-	int *temp;
+	char *temp;
 
 	type = 0;
 	x = 0;
