@@ -9,24 +9,24 @@ nclude "main.h"
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int index = 0;
+	int i,j = 0;
 
 	int dest.len = 0;
 
 	dest = destination;
 	src = source;
 
-	while (destination[index] != '\0')
+	while (destination[i] != '\0')
 	{
 		++dest;
-		index++;
+		i++;
 	}
-	while (source[index] != '\0')
+	while (source[j] != '\0')
 	{
 		*dest = *scr;
 		++scr;
 		++dest;
-		index++;
+		j++;
 	}
 	return (dest);
 }
