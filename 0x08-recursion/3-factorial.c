@@ -6,8 +6,6 @@
  */
 int factorial(int n)
 {
-	int result;
-
 	if (n < 0)
 	{
 		return (-1);
