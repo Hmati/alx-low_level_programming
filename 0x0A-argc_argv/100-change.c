@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib>
+#include<stdio.h>
+#include<stdlib>
 /**
  * main - a function that prints some  change for an amount of money
  * @argc: length of arg
