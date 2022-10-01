@@ -1,11 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 /**
  * main - a function that prints some  change for an amount of money
  * @argc: length of arg
  * @argv: number of argument
  *
  */
+
 int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
