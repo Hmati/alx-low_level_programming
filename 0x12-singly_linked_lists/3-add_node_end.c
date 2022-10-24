@@ -1,7 +1,4 @@
 #include "lists.h"
-
-
-
 /**
  * add_node_end - adds a new node at the end list.
  * @head: head of the linked list.
@@ -9,10 +6,7 @@
  * Return: address of the head.
  */
 
-
-
 list_t *add_node_end(list_t **head, const char *str)
-
 {
 	list_t *new, *temp;
 	size_t nchar;
